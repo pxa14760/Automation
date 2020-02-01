@@ -4,6 +4,7 @@ def anagramSolution4(s1,s2):
 
     for i in range(len(s1)):
         pos = ord(s1[i])-ord('a')
+        print(pos)
         c1[pos] = c1[pos] + 1
 
     for i in range(len(s2)):
