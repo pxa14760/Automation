@@ -5,6 +5,11 @@ print('Phone number:' +mo.group())
 print('Phone number:' +mo.group(0))
 print('Phone number:' +mo.group(1))
 print('Phone number:' +mo.group(2))
+area, num, ext = mo.groups()
+print(area)
+print(num)
+print(ext)
+
 
 
 
